@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     display: flex;
     justify-content: center;
@@ -20,12 +21,19 @@ body {
     letter-spacing: 0.2em;
     font-size: 0.9rem;
     color: #1e1e1e;
+    background-image: url(/BW.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    backdrop-filter: blur(7px);
+    
+  
 }
 
 ul {
     list-style: none;
-    width: min(90vw, 51rem);
-    max-width: 51rem;
+    width: min(50vw, 80rem);
+    max-width: 80rem;
     display: flex;
     overflow-x: auto;
     overflow-y: hidden;
