@@ -10,9 +10,11 @@
 
 
 body {
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: -20px;
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
     background: #1e1e1e;
@@ -27,8 +29,10 @@ body {
     background-size: 100% 100%;
     backdrop-filter: blur(7px);
     
+    
   
 }
+
 
 ul {
     list-style: none;
@@ -38,19 +42,25 @@ ul {
     overflow-x: auto;
     overflow-y: hidden;
     padding-bottom: 2rem;
+   
 }
 
 li {
-    flex: 0 0 45vw;
-    max-width: 18rem;
-    position: -webkit-sticky;
+    flex: 0 0 20rem;
+    /* max-width: 18rem;
+    position: -webkit-sticky; */
     position: sticky;
     top: 0;
     left: 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 20rem;
+    height: 30rem;
+}
+h1{
+    /* writing-mode:vertical-rl; */
+  transform: rotate(270deg);
+  color: #000000;
 }
 
 li span {
@@ -79,7 +89,7 @@ li::before {
 
 li img {
     display: block;
-    height: 20rem;
+    height: 30rem;
     width: 100%;
     object-fit: cover;
     position: absolute;
